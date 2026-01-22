@@ -2,17 +2,17 @@
     // nullable type
 
 
-    // const searchName = (value: string | null) => {
-    //     if (value) {
-    //         console.log("searching");
+    const searchName = (value: string | null) => {
+        if (value) {
+            console.log("searching");
 
-    //     } else {
-    //         console.log("There is no searching");
-    //     }
+        } else {
+            console.log("There is no searching");
+        }
 
-    // }
+    }
 
-    // searchName(null)
+    searchName(null)
 
     // unknown type
 
